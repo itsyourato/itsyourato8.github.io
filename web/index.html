@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UnderStage - 언더 공연 아카이브</title>
+    <link rel="stylesheet" href="navbar/navbar.css" />
+    <link rel="stylesheet" href="footer/footer.css" />
+    <link rel="stylesheet" href="account/account.css" />
+    <link rel="stylesheet" href="/base.css" />
+    <link rel="stylesheet" href="/index.css" />
+  </head>
+
+  <body>
+    <div id="navbar"></div>
+    <div class="hero-video-container">
+      <video autoplay muted loop playsinline>
+        <source src="image/Huckleberry_P.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <section id="performance-preview">
+      <h2>다가오는 공연 미리보기</h2>
+      <div class="rolling-row">
+        <div class="rolling-track"></div>
+      </div>
+      <div class="section-divider"></div>
+    </section>
+
+    <section id="account-area-preview">
+      <div class="left-wrap">
+        <h2>계정</h2>
+        <div class="poster-slider-viewport">
+          <div class="poster-list-container"></div>
+        </div>
+      </div>
+
+      <div class="right-wrap">
+        <h2>공연장</h2>
+        <div class="area-slider-viewport">
+          <div class="area-list-container"></div>
+        </div>
+      </div>
+    </section>
+
+    <div id="footer"></div>
+    <script src="/index.js" defer></script>
+    <script src="/base.js" defer></script>
+  </body>
+</html>
