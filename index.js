@@ -56,7 +56,7 @@ fetch("/account/account.html")
       const img = card.querySelector("img");
       if (img) {
         // account.html이 /account 폴더 안에 있으므로 상대 경로 조정
-        img.src = img.src.replace("../image/", "/image/");
+        img.src = img.src.replace("../image/", "image/");
       }
       container.appendChild(card);
     });
