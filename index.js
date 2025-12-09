@@ -10,15 +10,15 @@ function initRollingPreview() {
   if (!track) return;
 
   const performances = [
-    { image: "/image/band1.jpeg" },
-    { image: "/image/jazz2.jpeg" },
-    { image: "/image/band3.jpeg" },
-    { image: "/image/jazz4.jpeg" },
-    { image: "/image/per8.jpeg" },
-    { image: "/image/per3.png" },
-    { image: "/image/jazz1.jpeg" },
-    { image: "/image/per7.jpeg" },
-    { image: "/image/per2.png" },
+    { image: "image/band1.jpeg" },
+    { image: "image/jazz2.jpeg" },
+    { image: "image/band3.jpeg" },
+    { image: "image/jazz4.jpeg" },
+    { image: "image/per8.jpeg" },
+    { image: "image/per3.png" },
+    { image: "image/jazz1.jpeg" },
+    { image: "image/per7.jpeg" },
+    { image: "image/per2.png" },
   ];
 
   // 무한 롤링을 위해 2배 트랙 생성
